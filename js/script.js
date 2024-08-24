@@ -112,17 +112,12 @@ checkboxDarkMode.addEventListener('click', () => {
 
 
         // logo
-        document.querySelector('.logo img').src = "https://res.cloudinary.com/dvzingci9/image/upload/v1652856379/My-portfolio/logo__white_optimized_eb5pqt.png"
-
-        // clound
-        document.querySelector('.clound').innerHTML = `<img class="animate__animated animate__fadeInLeft clound-left animate__delay-1s" src="https://res.cloudinary.com/dvzingci9/image/upload/v1652852065/My-portfolio/clound-moon-left_jaocus_optimized_dmjzjr.png" alt="">
-        <img class="animate__animated animate__fadeInRight clound-right animate__delay-1s" src="https://res.cloudinary.com/dvzingci9/image/upload/v1652852066/My-portfolio/clound-moon_peb6rn_optimized_hzeqz3.png" alt="">`
+        document.querySelector('.logo img').src = "images/mizuho.jpg"
 
         // inmg home
-        document.querySelector('#home .image').innerHTML = ` <img src="https://res.cloudinary.com/dvzingci9/image/upload/v1652851267/My-portfolio/me_attdm8_jjqfny_optimized_isuewp.png" alt="" class="front-img">
-        <img src="https://res.cloudinary.com/dvzingci9/image/upload/v1652845805/My-portfolio/dc1-dark_optimized_etjlg4.png" alt="" class="dc1">
-        <img src="https://res.cloudinary.com/dvzingci9/image/upload/v1652845802/My-portfolio/dc2-dark_optimized_bi839d.png" alt="" class="dc2">
-        <img src="https://res.cloudinary.com/dvzingci9/image/upload/v1652845802/My-portfolio/dc2-dark_optimized_bi839d.png" alt="" class="dc3">`
+        document.querySelector('#home .image').innerHTML = ` <img src="images/dark1.jpg" alt="" class="front-img">
+        <img src="images/dark2.jpg" alt="" class="dc3">
+        <img src="images/dark3.jpg" alt="" class="dc2">`
 
         // circle
         document.querySelector('.skill .skill-container img').src = "https://res.cloudinary.com/dvzingci9/image/upload/v1652458965/My-portfolio/picVAP-dark_qeqodg.png";
@@ -130,7 +125,7 @@ checkboxDarkMode.addEventListener('click', () => {
         // imgage about me
         document.querySelector('.about .row-1 .image img').src = "https://res.cloudinary.com/dvzingci9/image/upload/v1652851269/My-portfolio/img_about_ucs7pd_optimized_rjusfe.jpg";
 
-        // about taget
+        // about taget3
         document.querySelector('.about .row-1 .content img').src = "https://res.cloudinary.com/dvzingci9/image/upload/v1652845802/My-portfolio/dc2-dark_optimized_bi839d.png";
 
         // project-border-left
@@ -144,18 +139,12 @@ checkboxDarkMode.addEventListener('click', () => {
         document.body.classList.remove("dark_theme");
 
         // logo
-        document.querySelector('.logo img').src = "https://res.cloudinary.com/dvzingci9/image/upload/v1652856363/My-portfolio/logo__black_optimized_mzimiv.png"
-
-        // clound
-        document.querySelector('.clound').innerHTML = `  <img class="animate__animated animate__fadeInLeft clound-left animate__delay-1s" src="https://res.cloudinary.com/dvzingci9/image/upload/v1652802792/My-portfolio/clound-left_optimized_xjoubm.png" alt="">
-        <img class="animate__animated animate__fadeInRight clound-right animate__delay-1s" src="https://res.cloudinary.com/dvzingci9/image/upload/v1652802792/My-portfolio/clound-right_optimized_riwik8.png" alt="">
-`
+        document.querySelector('.logo img').src = "images/lightlogo.jpg"
 
         // inmg home
-        document.querySelector('#home .image').innerHTML = ` <img src="https://res.cloudinary.com/dvzingci9/image/upload/v1652802935/My-portfolio/ava2_optimized_n9hxyi.png" alt="" class="front-img">
-         <img src="https://res.cloudinary.com/dvzingci9/image/upload/v1652300890/My-portfolio/dc1_stlq7p.png" alt="" class="dc1">
-         <img src="https://res.cloudinary.com/dvzingci9/image/upload/v1652300891/My-portfolio/dc2_wquo4x.png" alt="" class="dc2">
-         <img src="https://res.cloudinary.com/dvzingci9/image/upload/v1652300891/My-portfolio/dc2_wquo4x.png" alt="" class="dc3">
+        document.querySelector('#home .image').innerHTML = ` <img src="images/avt.jpg" alt="" class="front-img">
+         <img src="images/avt2.jpg" alt="" class="dc2">
+         <img src="images/avt3.jpg" alt="" class="dc3">
 `
 
         // circle

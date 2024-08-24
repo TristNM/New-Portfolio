@@ -4,13 +4,13 @@
     --body-color: #fcf2e8;
     --background-gradient: linear-gradient(90deg, rgba(252, 242, 232, 1) 31%, rgba(252, 242, 232, 0) 99%);
     --main-color: #f98866;
-    --text-yellow-color: #fbda68;
+    --text-yellow-color: #f98866;
     --text-black-color-bold: #121212;
     --black-color: #121212;
     --white-color: white;
     --text-black-color-normal: #121212;
     ;
-    --background-yellow-color: #fbda68;
+    --background-yellow-color: #f98866;
     --border-gray-color: #666666;
     --border-black-color: black;
     --text-black-dont-chance: black;
@@ -25,15 +25,15 @@
     --background-gradient: linear-gradient(90deg, rgba(0, 0, 0, 1) 31%, rgba(0, 0, 0, 0) 99%);
     --main-color: #1F1F1F;
     --zalo-chat-color: #f98866;
-    --text-yellow-color: #fbda68;
-    --text-black-color-bold: white;
+    --text-yellow-color: #f98866;
+    --text-black-color-bold: #f98866;
     --black-color: white;
-    --white-color: black;
+    --white-color: #f98866;
     --text-black-color-normal: #e7e7e7;
     --background-yellow-color: #f98866;
     --border-gray-color: #e7e7e7;
     --border-black-color: white;
-    --background-yellow-color: #f98866;
+    --background-yellow-color: black;
 }
 
 * {
@@ -1403,8 +1403,8 @@ body.dark_theme .home {
 }
 
 #experience .timeline-items {
-    max-width: 100%;
-    width: 100%;
+    max-width: 80%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     position: relative;
