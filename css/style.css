@@ -103,6 +103,8 @@ body::-webkit-scrollbar-track {
     background: black;
 }
 
+
+
 .box1.loading {
     animation-duration: 1.5s;
     animation-delay: 4s; 
@@ -204,6 +206,14 @@ body::-webkit-scrollbar-track {
     z-index: 10001;
     padding-top: 25rem;
 }
+
+@media screen and (max-width: 768px) {
+    .box {
+        display: none;
+    }
+    
+}
+
 .img-small {
     width: 50px; /* Set the desired width */
     height: 50px; /* Set the desired height */
